@@ -1,0 +1,103 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: hsla(335, 27%, 21%, 0.3);
+}
+
+div.form {
+    font-family: Roboto, sans-serif;
+    background-color: hsla(339, 8%, 60%, 0);
+}
+
+a {
+  color: black;
+    text-decoration: none;
+}
+
+header {
+  padding: 20px 0;
+  
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+div.mobile{
+  display:none;
+}
+
+nav {
+     display: flex;
+     justify-content: flex-end;
+
+}
+
+nav a {
+   font-size: 1em;
+    padding: 0 20px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+h1{
+font-size: 1.5rem;
+}
+
+ div.drop-menu {
+    display: none;
+    }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 400px;
+}
+
+   footer p {
+  text-align: center;
+  font-size: 0.95em;
+}
+
+footer h3 {
+  text-align: center;
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    
+
+    div.desktop{
+      display:none;
+    }
+
+    div.mobile {
+      display: flex;
+      justify-content: flex-end;
+    }
+ 
+
+    h1{
+    font-size: 1.25rem;
+    }
+
+    div.drop-menu {
+    display:none;   
+    }
+
+    nav.mobile{
+
+      display: flex;
+      justify-content: flex-end;
+
+    }
+
+ 
+   
+
+}
